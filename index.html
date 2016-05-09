@@ -24,7 +24,7 @@
     <script src = "lib/angular/angular.js"></script>
     <script src = "lib/angular/angular-messages.js"></script>
     <script>
-      angular.module("listaTelefonica", []);
+      angular.module("listaTelefonica", ["ngMessages"]);
       angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($scope){
         $scope.app="Lista Telefonica";
         $scope.contatos=[
@@ -90,9 +90,17 @@
         <button class="btn btn-block btn-primary" ng-click="adicionarContato(contato)" ng-disabled="contatoForm.$invalid">Adicionar Contato</button>
         <button class="btn btn-danger btn-block" ng-click="apagarContatos(contatos)" ng-if="isContatoSelecionado(contatos)">Apagar contatos</button>
     </form>
-    <div ng-messages="contatoForm.nome.$error && contatoForm.nome.$dirty" class="alert alert-danger">
+    <div ng-messages="contatoForm.nome.$error" class="alert alert-danger" ng-show="contatoForm.nome.$dirty">
       <div ng-message="minlength">
         o campo nome deve ter 10> caracteres
+      </div>
+      <div ng-message="required">
+        Por favor, preencha nome e telefone
+      </div>
+    </div>
+    <div ng-messages="contatoForm.telefone.$error" class="alert alert-danger" ng-show="contatoForm.telefone.$dirty">
+      <div ng-message="pattern">
+        Formato de telefone inválido
       </div>
       <div ng-message="required">
         Por favor, preencha nome e telefone
