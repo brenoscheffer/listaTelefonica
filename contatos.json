@@ -1,0 +1,98 @@
+[
+  {
+    "nrCaixa": "1",
+    "tipo": "Plasma",
+    "grupo": "Mulheres Pacientes",
+    "ano": "2015",
+    "nrInicial": "1",
+    "nrFinal": "2"
+  },
+  {
+    "nrCaixa": "2",
+    "tipo": "Plasma + Aproptinina",
+    "grupo": "Mulheres Pacientes",
+    "ano": "2016",
+    "nrInicial": "3",
+    "nrFinal": "4"
+  },
+  {
+    "nrCaixa": "3",
+    "tipo": "PBMC",
+    "grupo": "Mulheres Pacientes",
+    "ano": "2015/2016",
+    "nrInicial": "5",
+    "nrFinal": "6"
+  },
+  {
+    "nrCaixa": "4",
+    "tipo": "MetilaÃ§Ã£o",
+    "grupo": "Homens Controle",
+    "ano": "2015",
+    "nrInicial": "7",
+    "nrFinal": "8"
+  },
+  {
+    "nrCaixa": "5",
+    "tipo": "Plasma",
+    "grupo": "Mulheres Pacientes",
+    "ano": "2016",
+    "nrInicial": "9",
+    "nrFinal": "10"
+  },
+  {
+    "nrCaixa": "6",
+    "tipo": "Plasma + Aproptinina",
+    "grupo": "Mulheres Neuroimagem",
+    "ano": "2015/2016",
+    "nrInicial": "11",
+    "nrFinal": "12"
+  },
+  {
+    "nrCaixa": "7",
+    "tipo": "PBMC",
+    "grupo": "Mulheres Controle",
+    "ano": "2015",
+    "nrInicial": "13",
+    "nrFinal": "14"
+  },
+  {
+    "nrCaixa": "8",
+    "tipo": "MetilaÃ§Ã£o",
+    "grupo": "Homens Controle",
+    "ano": "2016",
+    "nrInicial": "15",
+    "nrFinal": "16"
+  },
+  {
+    "nrCaixa": "9",
+    "tipo": "Plasma",
+    "grupo": "Mulheres Pacientes",
+    "ano": "2015/2016",
+    "nrInicial": "17",
+    "nrFinal": "18"
+  },
+  {
+    "nrCaixa": "10",
+    "tipo": "Plasma + Aproptinina",
+    "grupo": "Mulheres Neuroimagem",
+    "ano": "2015",
+    "nrInicial": "19",
+    "nrFinal": "20"
+  },
+  {
+    "nrCaixa": "11",
+    "tipo": "PBMC",
+    "grupo": "Mulheres Controle",
+    "ano": "2016",
+    "nrInicial": "21",
+    "nrFinal": "22"
+  },
+  {
+    "nrCaixa": "12",
+    "tipo": "MetilaÃ§Ã£o",
+    "grupo": "Homens Controle",
+    "ano": "2015/2016",
+    "nrInicial": "23",
+    "nrFinal": "24"
+  }
+]
